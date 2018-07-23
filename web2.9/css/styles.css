@@ -1,0 +1,439 @@
+body{
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+nav a {
+	color: white;
+	font-size: 1.1875rem;
+	text-decoration: none;
+	text-align: center;
+	font-weight: bold;
+}
+
+nav	{
+	margin-bottom: 1.2em;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+nav ul {
+	margin-left: 1em;
+}
+
+nav a:hover{
+	color: gray;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+a:hover {
+	color: black;
+}
+
+.btn-outline-success {
+    color: white;
+    background-color: transparent;
+    background-image: none;
+    border-color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.btn-outline-success:hover{
+    color: black;
+    background-color: white;
+}
+
+.activo {
+	border-bottom: 2px solid white;
+}
+
+footer {
+	width: 100%;
+	background-color: black;
+}
+
+.col-3 {
+	text-align: center;
+	margin-top: 0.5em;
+}
+
+.socialmedia a {
+	text-decoration: none;
+}
+
+.col-3 a p {
+	color: gray;
+	text-decoration: none;
+	font: normal 14px 'Roboto';
+	display: inline-block;
+	position: relative;
+	margin-bottom: 0;
+}
+
+.copyright {
+	border-top: 0.0625rem solid #828282;
+	width: 100%;
+    height: 0.0625rem;
+    display: inline-block;   
+}
+
+.copyright p{
+	text-align: center;
+	color: #929699;
+    font-size: 0.6875rem;
+    margin-bottom: 0;
+}
+/**/
+
+.carousel-item, .principales{
+    overflow: hidden;
+}
+
+.carousel-item img, .principales img {
+	transform: scale(1.1);
+	filter:brightness(0.6);
+	transition: all 1.3s;
+}
+
+.carousel-item:hover img, .principales:hover img{
+	transform: scale(1.05);
+}
+
+.carousel-item:hover h5 {
+	text-decoration: underline;
+}
+
+.carousel-inner h5{
+	font-size: 2em;
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: white;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+@media only screen and (max-width: 500px) {
+	.carousel-inner h5 {
+		font-size: 1.3em;
+		margin-bottom: 0;
+	}
+}
+
+@media only screen and (max-width: 640px) {
+	.navbar-brand {
+	    margin-right: 0;
+	}
+}
+
+@media only screen and (max-width: 991px) {
+	.col-sm-8 {
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+}
+
+.info p {
+	line-height: 1.2em;
+	text-align: justify;
+}
+
+.col-sm-8 h1, .col-sm-4 h1, .noticias h1, .formulario h1{
+    font-size: 25px;
+    line-height: 1;
+    margin-top: 1em;
+    margin-bottom: 26px;
+    border-bottom: 2px solid #222;
+}
+
+.noticias h1, .formulario h1 {
+	margin-top: 0em;
+}
+
+.vermas {
+	margin-top: -1em;
+	margin-bottom: 1em;
+	text-align: right;
+}
+
+.formulario form {
+	margin-top: -0.5em;
+}
+
+.noticia {
+	max-height: 150px;
+	display: flex;
+	margin-bottom: 2em;
+}
+
+.noticia:hover h2 {
+	text-decoration: underline;
+} 
+
+.noticia:hover img {
+	filter:brightness(0.6);
+} 
+
+.noticia:hover {
+	cursor: pointer;
+}
+
+h1, h2 {
+    font-weight: bold;
+}
+
+.noticia h2 {
+	font-size: 22px;
+    line-height: 28px;
+    margin: 0 0 5px 0;
+}
+
+.noticia p {
+	color: #777;
+}
+
+.noticia img {
+	margin-right: 1.5em;
+    transition: all 0.5s ease;
+    max-height: 150px;
+    min-width: 225px;
+}
+
+@media only screen and (max-width: 768px) {
+	nav {
+		margin-bottom: 0.5em;
+	}
+
+	.noticia img {
+		width: 40%;
+		height: 40%;
+		margin-right: 0.2;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.noticia h2 {
+		font-size: 1em;
+	}
+}
+/**/
+table tr td {
+	text-align: center;
+	position: relative;
+}
+
+table img {
+	width: 100%;
+	display: block;
+	filter:brightness(0.6);
+}
+
+table h2, table h5 {
+	color: white;
+	position: absolute;
+	bottom: -12px;
+  	left: 0;
+  	padding: 5px;
+  	width: 100%;
+}
+
+table h5 {
+	bottom: 5px;
+}
+
+table {
+	margin-bottom: 1em;
+}
+
+.lista .col-sm-8 {
+	margin-top: 1em;
+}
+
+.tablaanuncios tr td img{
+	margin-bottom: 0.5em;
+	height: 196px;
+}
+
+.tablaanuncios {
+	margin-top: 0.8em;
+}
+
+/**/
+
+.azul {
+	background-color: #383733;
+}
+
+.naranja {
+	background-color: #aeb7c0;
+}
+
+.gris {
+	background-color: #c1c2bc;
+}
+
+.cajita p, .cajita h3, .juego h4 {
+	color: white;
+}
+
+.cajita p {
+	font-size: 1.4em;
+}
+
+.cajita h3 {
+	font-size: 2em;
+	font-weight: bolder;
+}
+
+.juego {
+	padding: 1em;
+}
+
+.juego img {
+	width: 100%;
+	margin-bottom: 0.5em;
+}
+
+/**/
+
+.formulario .col-sm-6 form button[type="submit"] {
+	background-color: black;
+	color: white;
+	font-size:1em;
+	padding: 0.4em 0.2em;
+	text-align: center;
+	width: auto;
+	border-radius: 5px;
+}
+/**/
+
+.libro, .novedades {
+	width: 100%;
+	text-align: center;
+	margin: 1em 0;
+	border-radius: 5px;
+}
+
+.novedades {
+	width: 100%;
+	text-align: center;
+	margin: 1em 0;
+	border-radius: 5px;
+}
+
+.novedades img {
+	display: box;
+	width: 60%;
+	transition: all 0.5s ease;
+}
+
+.libro img {
+	display: box;
+	width: 100%;
+	transition: all 0.5s ease;
+}
+
+.libro h3 {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	font-size: 1.3em;
+}
+
+.libro:hover img {
+	transform: scale(1.05);
+}
+
+.libros h2 {
+	border-bottom: 2px solid #222;
+	width: 100%;
+}
+
+/**/
+
+.news h1 {
+	font-size: 47px;
+	font-weight: 900;
+	line-height: 48px;
+	color: #333;
+}
+
+.news h2 {
+	font-size: 20px;
+	margin-bottom: 0;
+	font-weight: normal;
+	font-style: italic;
+	color: gray;
+}
+
+.news img {
+	width: 100%;
+}
+
+.news h3 {
+	font-size: 11px;
+	font-family: 'Work Sans',sans-serif;
+	padding: 14px 0;
+	font-weight: 400;
+	color: #777;
+}
+
+.news p{
+	font-size: 18px;
+	letter-spacing: .02em;
+	line-height: 25px;
+	margin-bottom: 24px;
+	margin-top: -1em;
+}
+
+.news {
+	margin-bottom: 3em;
+}
+
+.comentarios .cajacomentarios {
+	padding: 1em;
+	background-color: white;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+.comentario {
+	padding: 0.5em;
+	margin-top: 0;
+	background-color: white;
+	border-top: 1px solid gray;
+}
+
+.comentario:last-child{
+	border-bottom: 1px solid gray;
+}
+
+.comentario span {
+	font-weight: bold;
+}
+
+.nuevocomentario textarea {
+	min-height: 100px;
+	max-height: 100px;
+	resize: none;
+}
+
+.comentarios {
+	margin-bottom: 2em;
+}
+
+/**/
+
+#efecto3d {
+	background: url(../img/juegos/trans3.png);
+	background-size: cover;
+	z-index: 1;
+}
+
+#efecto3d img {
+	width: 100%;
+	z-index: 0;
+}

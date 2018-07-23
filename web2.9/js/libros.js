@@ -1,0 +1,1 @@
+$('.row .col-sm-2 a').fancybox();
