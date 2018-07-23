@@ -3,10 +3,6 @@ Proyecto Web Master (ver. 2.9)
 
 Para Ver 3.0:
 
-  _Actualizado el archivo README.md
-
-  _Subido a github el repositorio de la pagina web
-
   _Solucionar el problema que impide subir los comentarios a la base de datos *IMPORTANTE*
 
   _Personalizar completamente el Panel de Administrador
@@ -16,6 +12,10 @@ Para Ver 3.0:
   _Hacerlo mobile-friendly
   
 Ver 2.9:
+
+  _Actualizado el archivo README.md
+
+  _Subido a github el repositorio de la pagina web
   
   _Solucionado el error que impedia subir nuevas noticias desde el Panel de Administrador
   
