@@ -2,9 +2,13 @@
 Proyecto Web Master (ver. 2.9)
 
 Para Ver 3.0:
+
 _Solucionar el problema que impide subir los comentarios a la base de datos *IMPORTANTE*
+
 _Personalizar completamente el Panel de Administrador
+
 _Cambiar el WYSIWYG
+
 _Hacerlo mobile-friendly
 
 Ver 2.9:
